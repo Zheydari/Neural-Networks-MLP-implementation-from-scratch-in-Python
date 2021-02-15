@@ -23,7 +23,6 @@ If you already have your own Python development environment, please refer to thi
 
 **Code Test** <br>
 
-There are two ways (steps) that you can test your implementation:
 
 **1. Python Unit Tests**: Some public unit tests are provided in the **tests/** folder. 
 You can test each part of your implementation with these test cases by: <br>
