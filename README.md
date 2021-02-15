@@ -34,8 +34,10 @@ You can test each part of your implementation with these test cases by: <br>
 
 The IRIS dataset (iris_train.csv and iris_test.csv ) is present in the **./data** folder. 
 <br>
+
 **1.1 Data Preparation** 
 <br>
+
 To avoid the choice of hyper-parameters "overfits" the test data, it is a common practice to split the training dataset into the actual **training data** and **validation data** 
 and perform hyper-parameter tuning based on results on validation data. Additionally, in deep learning, training data is often forwarded to models in **batches** for faster training time and noise reduction.
 <br>
