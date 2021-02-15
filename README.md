@@ -6,7 +6,6 @@ A simple pipeline of training neural networks in Python to classify **Iris flowe
 $: python main.py --config configs/config_file.yaml
 ```
 <br>
-
 There are three pre-defined config files under **./configs**. Two of them are default hyper-parameters for models (Softmax Regression and 2-layer MLP). 
 Do **NOT** modify values in these config files. The third config file, **config_exp.yaml**, is used for your hyper-parameter tuning experiments and you are 
 free to modify values of the hyper-parameters in this file. The script trains a model with the number of epochs specified in the config file. 
@@ -15,11 +14,10 @@ At the end of each epoch, the script evaluates the model on validation set. Afte
 **Python and dependencies** <br>
 
 We will work with Python 3. If you do not have a python distribution installed yet, 
-we recommend installing Anaconda (or miniconda) with Python 3. We provide **environment.yml** which contains a list of libraries needed to set environment 
+we recommend installing Anaconda (or miniconda) with Python 3. We provide **environment.yaml** which contains a list of libraries needed to set environment 
 for this implementation. You can use it to create a copy of conda environment. <br>
-
 ```python
-$: conda env create -f environment yaml
+$: conda env create -f environment.yaml
 ```
 <br>
 If you already have your own Python development environment, please refer to this file to find necessary libraries.
