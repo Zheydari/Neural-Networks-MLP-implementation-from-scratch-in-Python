@@ -2,7 +2,9 @@
 A simple pipeline of training neural networks in Python to classify **Iris flowers** from petal and sepal dimensions (can also be used on any other multiclass classification dataset). Implemented two neural network architectures along with the code to load data, train, optimize these networks and classify the dataset. The main.py contains the major logic of this pipeline. You can execute it by invoking the following command where the yaml file contains all the hyper-parameters. 
 <br>
 
-**$: python main.py --config configs/config_file.yaml**
+```python
+$: python main.py --config configs/config_file.yaml
+```
 <br>
 
 There are three pre-defined config files under **./configs**. Two of them are default hyper-parameters for models (Softmax Regression and 2-layer MLP). 
@@ -16,7 +18,9 @@ We will work with Python 3. If you do not have a python distribution installed y
 we recommend installing Anaconda (or miniconda) with Python 3. We provide **environment.yml** which contains a list of libraries needed to set environment 
 for this implementation. You can use it to create a copy of conda environment. <br>
 
-**$: conda env create -f environment yaml**
+```python
+$: conda env create -f environment yaml
+```
 <br>
 If you already have your own Python development environment, please refer to this file to find necessary libraries.
 <br>
