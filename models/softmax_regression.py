@@ -1,4 +1,3 @@
-# Do not use packages that are not in standard distribution of python
 import numpy as np
 
 from ._base_network import _baseNetwork
