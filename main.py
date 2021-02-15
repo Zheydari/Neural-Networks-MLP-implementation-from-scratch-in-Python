@@ -6,6 +6,7 @@ from models import TwoLayerNet, SoftmaxRegression
 from optimizer import SGD
 from utils import load_mnist_trainval, load_mnist_test, generate_batched_data, train, evaluate, plot_curves
 
+parser = argparse.ArgumentParser(description='NN Scratch in Python')
 parser.add_argument('--config', default='./config.yaml')
 
 
