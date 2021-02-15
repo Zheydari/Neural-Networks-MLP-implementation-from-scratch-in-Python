@@ -7,7 +7,7 @@ $: python main.py --config configs/config_file.yaml
 ```
 <br>
 There are three pre-defined config files under **./configs**. Two of them are default hyper-parameters for models (Softmax Regression and 2-layer MLP). 
-Do **NOT** modify values in these config files. The third config file, **config_exp.yaml**, is used for your hyper-parameter tuning experiments and you are 
+Do NOT modify values in these config files. The third config file, **config_exp.yaml**, is used for your hyper-parameter tuning experiments and you are 
 free to modify values of the hyper-parameters in this file. The script trains a model with the number of epochs specified in the config file. 
 At the end of each epoch, the script evaluates the model on validation set. After the training completes, the script finally evaluate the best model on test data. 
 
