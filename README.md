@@ -21,14 +21,6 @@ for this implementation. You can use it to create a copy of conda environment. <
 If you already have your own Python development environment, please refer to this file to find necessary libraries.
 <br>
 
-**Code Test** <br>
-
-
-**1. Python Unit Tests**: Some public unit tests are provided in the **tests/** folder. 
-You can test each part of your implementation with these test cases by: <br>
-
-**$: python -m unittest tests.name_of_tests** 
-
 ## Data Loading
 
 The IRIS dataset (iris_train.csv and iris_test.csv ) is present in the **./data** folder. 
