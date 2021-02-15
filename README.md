@@ -77,7 +77,7 @@ We will use an optimizer to update weights of models. An optimizer is initialize
 Before updating model weights, the optimizer applies **L2 regularization** on the model. Also implemented a vanilla **SGD optimizer**. 
 <br>
 
-**NOTE: Remember, regularization is NOT applied on bias terms!**
+***NOTE: Regularization is NOT applied on bias terms!***
 
 ## Visualization 
 It is always a good practice to monitor the training process by monitoring the learning curves.
